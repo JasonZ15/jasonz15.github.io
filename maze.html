@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Robot in Maze!</title><meta name=description><meta name=viewport content="width=device-width, initial-scale=1"><link rel=stylesheet href=css/style.css></head><body><div id=maze-robot></div><button class=robot-control name=moveForward>Move Forward</button> <button class=robot-control name=turnLeft>Turn Left</button> <button class=robot-control name=turnRight>Turn Right</button> <button class=robot-control name=turnBack>Turn Back</button> <button class=robot-control name=startOver>Reset Robot</button> <button class=robot-control name=startGame>Start Game</button><script src=js/script.js></script><script type=text/javascript>
+<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Robot in Maze!</title><meta name=description><meta name=viewport content="width=device-width, initial-scale=1"><link rel=stylesheet href=css/style.css></head><body><div id=maze-robot></div><button class=robot-control name=moveForward>Move Forward</button> <button class=robot-control name=turnLeft>Turn Left</button> <button class=robot-control name=turnRight>Turn Right</button> <button class=robot-control name=turnBack>Turn Back</button> <button class=robot-control name=startOver>Reset Robot</button> <button class=robot-control name=startGame>Start Game</button><script src=js/jquery.min.js></script><script src=js/script_maze.js></script><script type=text/javascript>
         	//we can load different Maze and different robot model
         	//later we can read it from a database file
         	var m = new Maze(6, 4);
@@ -20,10 +20,10 @@
         	m.setWall(3, 3, "west");
         	m.setWall(0, 3, "east");
         	m.setWall(2, 3, "south");
-     
-        	
-        	var r = new Robot();
-        	
 
-			
+
+        	var r = new Robot();
+
+
+
         </script></body></html>
